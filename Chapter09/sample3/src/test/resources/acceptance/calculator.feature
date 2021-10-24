@@ -5,5 +5,5 @@ Feature: Calculator
     Then I receive 3 as a result
   Scenario: Div two numbers
     Given I have two numbers: 6 and 2
-    When the calculator sums them
+    When the calculator divides them
     Then I receive 3 as a result
